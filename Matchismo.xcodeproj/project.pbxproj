@@ -16,6 +16,7 @@
 		8653A8A31A0D2DCB00B0D702 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8653A8A21A0D2DCB00B0D702 /* MatchismoTests.m */; };
 		8653A8B21A0D5F5000B0D702 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 8653A8B11A0D5F5000B0D702 /* Card.m */; };
 		8653A8B81A0D615600B0D702 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8653A8B71A0D615600B0D702 /* PlayingCard.m */; };
+		8653A8BB1A0D62C500B0D702 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8653A8BA1A0D62C500B0D702 /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		8653A8B11A0D5F5000B0D702 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = SOURCE_ROOT; };
 		8653A8B61A0D615600B0D702 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = SOURCE_ROOT; };
 		8653A8B71A0D615600B0D702 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = SOURCE_ROOT; };
+		8653A8B91A0D62C500B0D702 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = SOURCE_ROOT; };
+		8653A8BA1A0D62C500B0D702 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				8653A8B11A0D5F5000B0D702 /* Card.m */,
 				8653A8B61A0D615600B0D702 /* PlayingCard.h */,
 				8653A8B71A0D615600B0D702 /* PlayingCard.m */,
+				8653A8B91A0D62C500B0D702 /* Deck.h */,
+				8653A8BA1A0D62C500B0D702 /* Deck.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 				8653A88C1A0D2DCA00B0D702 /* AppDelegate.m in Sources */,
 				8653A8891A0D2DCA00B0D702 /* main.m in Sources */,
 				8653A8B81A0D615600B0D702 /* PlayingCard.m in Sources */,
+				8653A8BB1A0D62C500B0D702 /* Deck.m in Sources */,
 				8653A8B21A0D5F5000B0D702 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
