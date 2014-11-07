@@ -14,7 +14,7 @@
 		8653A8941A0D2DCA00B0D702 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8653A8931A0D2DCA00B0D702 /* Images.xcassets */; };
 		8653A8971A0D2DCA00B0D702 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8653A8951A0D2DCA00B0D702 /* LaunchScreen.xib */; };
 		8653A8A31A0D2DCB00B0D702 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8653A8A21A0D2DCB00B0D702 /* MatchismoTests.m */; };
-		8653A8AF1A0D33F700B0D702 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 8653A8AE1A0D33F700B0D702 /* Card.m */; };
+		8653A8B21A0D5F5000B0D702 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 8653A8B11A0D5F5000B0D702 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		8653A89C1A0D2DCB00B0D702 /* MatchismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8653A8A11A0D2DCB00B0D702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8653A8A21A0D2DCB00B0D702 /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
-		8653A8AD1A0D33F700B0D702 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
-		8653A8AE1A0D33F700B0D702 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		8653A8B01A0D5F5000B0D702 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = SOURCE_ROOT; };
+		8653A8B11A0D5F5000B0D702 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +126,8 @@
 		8653A8AC1A0D33F700B0D702 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8653A8AD1A0D33F700B0D702 /* Card.h */,
-				8653A8AE1A0D33F700B0D702 /* Card.m */,
+				8653A8B01A0D5F5000B0D702 /* Card.h */,
+				8653A8B11A0D5F5000B0D702 /* Card.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -235,7 +235,7 @@
 				8653A88F1A0D2DCA00B0D702 /* ViewController.m in Sources */,
 				8653A88C1A0D2DCA00B0D702 /* AppDelegate.m in Sources */,
 				8653A8891A0D2DCA00B0D702 /* main.m in Sources */,
-				8653A8AF1A0D33F700B0D702 /* Card.m in Sources */,
+				8653A8B21A0D5F5000B0D702 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
