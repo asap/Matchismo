@@ -15,14 +15,18 @@
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property (weak, nonatomic) IBOutlet UIButton *startGame;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *matchMode;
 @end
 
 @implementation ViewController
 
 - (CardMatchingGame *)game
 {
-    if (!_game) _game = [[CardMatchingGame alloc] initWithCardCount:[self.cardButtons count]
-                                                          usingDeck:[self createDeck]];
+    if (!_game) {
+        _game = [[CardMatchingGame alloc] initWithCardCount:[self.cardButtons count]
+                                                  usingDeck:[self createDeck]];
+        [self touchMatchMode:self.matchMode];
+    }
     return _game;
 }
 
@@ -47,8 +51,12 @@
     [self updateUI];
 }
 
+- (IBAction)touchMatchMode:(UISegmentedControl *)sender {
+    self.game.matchMode = sender.selectedSegmentIndex;
+}
+
 - (IBAction)touchStartGame:(UIButton *)sender {
-    // Ask for confirmation to init new game
+    // Ask for confirmation t o init new game
 
     // Clear out existing game and score
     self.game = nil;
